@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Meeter_gibb.FAQ"
+             Title="FAQ">
+    <ScrollView>
+    <VerticalStackLayout BackgroundColor="#D7D7D9">
+        <Label 
+            Text="Welcome to Meeter!"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            WidthRequest="400"
+            Padding="10"
+            BackgroundColor="#11808C"
+            TextColor="#F2F2F2"/>
+        <Label
+            Text="Here you are on the FAQ Page which should help you and give you needed information."
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Padding="10"
+            FontSize="Medium"/>
+        <Label
+            Text="Here are some often asked question about our Application."
+            Padding="10"
+            FontSize="Medium"/>
+        <Label
+            Text="What is a Meet?"
+            Padding="10"
+            FontSize="Medium"
+            TextColor="#D93D04"/>
+        <Label
+            Text="We call a new entry on your calendar a Meet that does Meet mean."
+            Padding="10"
+            FontSize="Medium"/>
+        <Label
+            Text="What is the difference to normal calendar apps?"
+            Padding="10"
+            FontSize="Medium"
+            TextColor="#D93D04"/>
+        <Label
+            Text="Our Application gives you a lot more Overview about your Meet's so you can enjoy a peaceful life."
+            Padding="10"
+            FontSize="Medium"/>
+        <Label
+            Text="We hope that answered most of your question and we wish you a lot of fun and enjoyable time with Meeter."
+            Padding="10"
+            FontSize="Medium"/>
+        <Line X1="0"
+              Y1="0"
+              X2="500"
+              Y2="0"
+              Stroke="#3767A6"
+              StrokeThickness="5"
+              StrokeDashArray="1,1"
+              StrokeDashOffset="6" />
+        <Label
+            Text="If you have any more question please ask them."
+            FontSize="Small"
+            Padding="3"/>
+        <Entry
+            Placeholder="Question"
+            TextColor="#3767A6"/>
+        <HorizontalStackLayout>
+            <Label Text="I Accept that my question get's showed on this page"
+                   Padding="3"/>
+            <CheckBox Color="#3767A6"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Please enter the Time"
+                   Padding="10"/>
+            <TimePicker TextColor="#3767A6"
+                        HorizontalOptions="End"/>
+        </HorizontalStackLayout>
+        <Button Text="Submit"
+                BackgroundColor="#3767A6"/>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,26 @@
+﻿<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dxco="clr-namespace:DevExpress.Maui.Controls;assembly=DevExpress.Maui.Controls"
+             xmlns:dxcv="clr-namespace:DevExpress.Maui.CollectionView;assembly=DevExpress.Maui.CollectionView"
+             xmlns:dxsch="clr-namespace:DevExpress.Maui.Scheduler;assembly=DevExpress.Maui.Scheduler"
+             xmlns:dxg="clr-namespace:DevExpress.Maui.DataGrid;assembly=DevExpress.Maui.DataGrid"
+             xmlns:dxe="clr-namespace:DevExpress.Maui.Editors;assembly=DevExpress.Maui.Editors"
+             xmlns:dxdf="clr-namespace:DevExpress.Maui.DataForm;assembly=DevExpress.Maui.Editors"
+             xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+             xmlns:local="clr-namespace:Meeter_gibb"
+             ios:Page.UseSafeArea="true"
+             x:Class= "Meeter_gibb.MainPage"
+             Shell.NavBarIsVisible="False">
+
+    <TabBar>
+        <Tab Title="Overview" Icon="bars.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Overview}"/>
+        </Tab>
+        <Tab Title="Schedule" Icon="calendar.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Calendar}"/>
+        </Tab>
+        <Tab Title="FAQ" Icon="question.png">
+            <ShellContent ContentTemplate="{DataTemplate local:FAQ}"/>
+        </Tab>
+    </TabBar>
+</Shell>

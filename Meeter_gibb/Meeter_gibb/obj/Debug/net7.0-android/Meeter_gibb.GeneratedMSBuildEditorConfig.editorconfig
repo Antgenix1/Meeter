@@ -1,0 +1,51 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = Meeter_gibb
+build_property.ProjectDir = F:\Meeter_gibb\Meeter_gibb\Meeter_gibb\
+
+[F:/Meeter_gibb/Meeter_gibb/Meeter_gibb/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meeter_gibb.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[F:/Meeter_gibb/Meeter_gibb/Meeter_gibb/Calendar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meeter_gibb.Calendar.xaml
+build_metadata.AdditionalFiles.TargetPath = Calendar.xaml
+build_metadata.AdditionalFiles.RelativePath = Calendar.xaml
+
+[F:/Meeter_gibb/Meeter_gibb/Meeter_gibb/DetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meeter_gibb.DetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DetailPage.xaml
+
+[F:/Meeter_gibb/Meeter_gibb/Meeter_gibb/FAQ.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meeter_gibb.FAQ.xaml
+build_metadata.AdditionalFiles.TargetPath = FAQ.xaml
+build_metadata.AdditionalFiles.RelativePath = FAQ.xaml
+
+[F:/Meeter_gibb/Meeter_gibb/Meeter_gibb/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meeter_gibb.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[F:/Meeter_gibb/Meeter_gibb/Meeter_gibb/Overview.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meeter_gibb.Overview.xaml
+build_metadata.AdditionalFiles.TargetPath = Overview.xaml
+build_metadata.AdditionalFiles.RelativePath = Overview.xaml

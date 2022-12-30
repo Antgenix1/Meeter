@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Meeter_gibb.Overview">
+    
+    <ScrollView BackgroundColor="#D7D7D9">
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <CollectionView x:Name="meineCollectionView"
+                            SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.RowSpan="2"
+                                Text="{Binding Id}"
+                                HeightRequest="60"
+                                WidthRequest="60" />
+                            <Label Grid.Column="1"
+                                Text="{Binding Titel}"
+                                FontAttributes="Bold" />
+                            <Label Grid.Row="1"
+                                Grid.Column="1"
+                                Text="{Binding Beschreibung}"
+                                FontAttributes="Italic"
+                                VerticalOptions="End" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <HorizontalStackLayout>
+                <Button
+                x:Name="btnAdd"
+                Text="Add"
+                SemanticProperties.Hint="Creates new Meet."
+                Clicked="OnAdd"
+                HorizontalOptions="Center"
+                Margin="3"
+                WidthRequest="110"
+                BackgroundColor="#3767A6"
+                TextColor="#F2F2F2"/>
+                <Button
+                x:Name="btnRemove"
+                Text="Delete"
+                SemanticProperties.Hint="Deletes Meet."
+                Clicked="OnDelete"
+                HorizontalOptions="Center"
+                Margin="3"
+                WidthRequest="110"
+                BackgroundColor="#3767A6"
+                TextColor="#F2F2F2"/>
+                <Button
+                x:Name="btnChange"
+                Text="Change"
+                SemanticProperties.Hint="Changes choosen Meet."
+                Clicked="OnChange"
+                HorizontalOptions="Center"
+                Margin="3"
+                WidthRequest="110"
+                BackgroundColor="#3767A6"
+                TextColor="#F2F2F2"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
